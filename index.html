@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link
+                href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+                rel="stylesheet">
+                <link rel="stylesheet" href="style.css">
+            <title>Natural Disaster</title>
+        </head>
+    
+        <body>
+            <style>
+                .highlight {
+                    font-weight: bold;
+                    background-color: rgba(31, 112, 189, 0.596); /* Highlighting text */
+                }
+            </style>
+            <nav id="nav">
+                <h1>Natural Diseases</h1>
+            </nav>
+
+            <button class="tablink" id="defaultOpen" onclick="openPage('Types',this)">TYPES</button>
+            <button class="tablink" onclick="openPage('Causes',this)">CAUSES</button>
+            <button class="tablink" onclick="openPage('Negativeimpacts',this)">NEGATIVE IMPACTS</button>
+            <button class="tablink" onclick="openPage('TheroleofAIinpreparedness',this)">THE ROLE OF AI IN PREPAREDNESS</button>
+            <div id="Types" class="tabcontent">
+                <div class="slideshow-container">
+                    <div class="text">
+                        <h1>Types of Natural Disasters</h1>
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">1 / 4</div>
+                        <img src="img/volcanoerruption.jpg" style="width:100%">
+                    </div>
+                        
+                    <div class="mySlides fade">
+                        <div class="numbertext">2 / 4</div>
+                        <img src="img/earthquake.jpg" style="width:100%">
+                    </div>
+                        
+                    <div class="mySlides fade">
+                        <div class="numbertext">3 / 4</div>
+                        <img src="img/flood.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">4 / 4</div>
+                        <img src="img/tornado.jpg" style="width:100%">
+                    </div>
+
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br>
+                <!-- The dots/circles -->
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                </div>
+                <div class="volcaniceruption">
+                    <br>
+                    <h2 style="color: black;">1.Volcanic Eruption</h2>
+                    <h3><b>Volcanic eruption,</b> an eruption of molten rock, hot rock fragments, and hot gases through a volcano, which is a vent in a planet’s or satellite’s crust. </h3>
+                    <p>There are three main types of volcanic eruption:</p>
+                    <ul>
+                        <li><span class="highlight">Magmatic eruptions</span> are the most well-observed type of eruption. They involve the decompression of gas within magma that propels it forward. <b>Example:Hawaiian, Strombolian and Vulcanian</b></li>
+                        <li><span class="highlight">Phreatic eruptions</span> are driven by the superheating of steam due to the close proximity of magma. This type exhibits no magmatic release, instead causing the granulation of existing rock.</li>
+                        <li><span class="highlight">Phreatomagmatic eruptions</span> are driven by the direct interaction of magma and water, as opposed to phreatic eruptions, where no fresh magma reaches the surface.<b>Example:Surtseyan, Submarine and Subglacial</b></li>
+                    </ul>
+                    <p>Within these broad eruptive types are several subtypes. The weakest are <span class="highlight">Hawaiian</span> and <span class="highlight">submarine.</span> The strongest eruptions are called <span class="highlight">Ultra-Plinian.</span></p>
+                </div>
+                <div class="container">
+                    <div class="box">
+                        <img src="img/Phreatic.png">
+                        <p><span class="highlight">Phreatic eruption</span> occurs when magma heats ground water or surface water.</p>
+                        <p>1: water-vapor cloud</p>
+                        <p>2: magma conduit</p>
+                        <p>3: layers of lava and ash</p>
+                        <p>4: stratum</p>
+                        <p>5: water table</p>
+                        <p>6: explosion</p>
+                        <p>7: magma chamber</p>
+                    </div>
+            
+                    <div class="box">
+                        <img src="img/Hawaiian.png">
+                        <p><span class="highlight">Hawaiian eruption</span> is lava flows from the vent in a relatively gentle, low level eruption</p>
+                        <p>1: ash plume<br>2: lava fountain<br>3: crater;<br>4: lava lake<br>5: fumarole<br>6: lava flow<br>7: layers of lava and ash<br>8: stratum<br>9: sill<br>10: magma conduit<br>11: magma chamber<br>12: dike</p>
+                    </div>
+            
+                    <div class="box">
+                        <img src="img/Submarine.png">
+                        <p><span class="highlight">Submarine eruptions</span> take place beneath the surface of water.</p>
+                        <p>1: Water vapor cloud</p>
+                        <p>2: Water </p>
+                        <p>3: Stratum</p>
+                        <p>4: Lava flow</p>
+                        <p>5: Magma conduit</p>
+                        <p>6: Magma chamber</p>
+                        <p>7: Dike</p>
+                        <p>8: Pillow lava</p>
+                    </div>
+            
+                    <div class="box">
+                        <img src="img/Strombolian.png">
+                        <p><span class="highlight">Strombolian eruption</span> is a type of volcanic eruption with relatively mild blasts</p>
+                        <p>1: ash plume<br>2: lapilli<br>3: volcanic ash fall<br>4: lava fountain<br>5: volcanic bomb<br>6: lava flow<br>7: layers of lava and ash<br>8: stratum<br>9: dike<br>10: magma conduit<br>11: magma chamber<br>12: sill
+                    </div>
+            
+                    <div class="box">
+                        <img src="img/Plinian.png">
+                        <p><span class="highlight">Ultra-Plinian eruptions</span> are marked by columns of volcanic debris and hot gases ejected high into the stratosphere</p>
+                        <p>1: ash plume</p>
+                        <p>2: magma conduit</p>
+                        <p>3: volcanic ash fall</p>
+                        <p>4: layers of lava and ash</p>
+                        <p>5: stratum</p>
+                        <p>6: magma chamber</p>
+                    </div>
+                </div>
+                <div class="flood">
+                    <br>
+                    <h2 style="color: black;">2.Flood</h2>
+                    <h4><b>A flood is an <span class="highlight">overflow of water </span>(or rarely other fluids) that submerges land that is usually dry. In the sense of "flowing water", the word may also be applied to the inflow of the tide. Floods are of significant concern in agriculture, civil engineering and public health.</b></h4>
+                    <p>There are three types of flood:</p>
+                    <h3><b>A.Areal flooding</b></h3>
+                    <div class="text-with-image">
+                        <p>Floods can happen on flat or low-lying areas when water is supplied by rainfall or snowmelt more rapidly than it can either infiltrate or run off. The excess accumulates in place, sometimes to hazardous depths. Surface soil can become saturated, which effectively stops infiltration, where the water table is shallow, such as a floodplain, or from intense rain from one or a series of storms. Infiltration also is slow to negligible through frozen ground, rock, concrete, paving, or roofs. Areal flooding begins in flat areas like floodplains and in local depressions not connected to a stream channel, because the velocity of overland flow depends on the surface slope. Endorheic basins may experience areal flooding during periods when precipitation exceeds evaporation.</p>
+                        <img src="img/areal.jpg">
+                    </div>
+                    <h3><b>B.River Flooding</b></h3>
+                    <div class="text-with-image">
+                        <p>Floods occur in all types of river and stream channels, from the smallest ephemeral streams in humid zones to normally-dry channels in arid climates to the world's largest rivers. When overland flow occurs on tilled fields, it can result in a muddy flood where sediments are picked up by run off and carried as suspended matter or bed load. Localized flooding may be caused or exacerbated by drainage obstructions such as landslides, ice, debris, or beaver dams.</p>
+                        <img src="img/river.jpg">
+                    </div>
+                    <h3><b>C.Urban Flooding</b></h3>
+                    <div class="text-with-image">
+                        <p>Urban flooding is the inundation of land or property in cities or other built environment, caused by rainfall or coastal storm surges overwhelming the capacity of drainage systems, such as storm sewers. Urban flooding can occur regardless of whether or not affected communities are located within designated floodplains or near any body of water.[1] It is triggered for example by an overflow of rivers and lakes, flash flooding or snowmelt. During the flood, stormwater or water released from damaged water mains may accumulate on property and in public rights-of-way. It can seep through building walls and floors, or backup into buildings through sewer pipes, cellars, toilets and sinks.</p>
+                        <img src="img/urban.jpg">
+                    </div>
+                </div>
+                <div class="Earthquake">
+                    <br>
+                    <h2 style="color: black;"><b>3.Earthquake</b></h2>
+                    <h4><b>An earthquake</b>also called a <span class="highlight">quake, tremor, or temblor</span> is the shaking of the Earth's surface resulting from a sudden release of energy in the lithosphere that creates seismic waves. Earthquakes can range in intensity, from those so weak they cannot be felt, to those violent enough to propel objects and people into the air, damage critical infrastructure, and wreak destruction across entire cities. The seismic activity of an area is the frequency, type, and size of earthquakes experienced over a particular time. The seismicity at a particular location in the Earth is the average rate of seismic energy release per unit volume.</h4>
+                    <h5><b>In its most general sense, the word earthquake is used to describe any seismic event that generates seismic waves. Earthquakes can occur naturally or be induced by human activities, such as mining, fracking, and nuclear tests. The initial point of rupture is called the hypocenter or focus, while the ground level directly above it is the epicenter. Earthquakes are primarily caused by geological faults, but also by volcanic activity, landslides, and other seismic events. The frequency, type, and size of earthquakes in an area define its seismic activity, reflecting the average rate of seismic energy release.</b></h5>
+                    <h3><b>Major Example</b></h3>
+                    <p>One of the most devastating earthquakes in recorded history was the <span class="highlight">1556 Shaanxi earthquake</span>, which occurred on <span class="highlight">23 January 1556 in Shaanxi, China.</span> More than <span class="highlight">830,000 people died</span>.Most houses in the area were yaodongs—dwellings carved out of loess hillsides—and many victims were killed when these structures collapsed. The 1976 Tangshan earthquake, which killed between 240,000 and 655,000 people, was the deadliest of the 20th century.</p>
+                    <p>The 1960 Chilean earthquake is the largest earthquake that has been measured on a seismograph, reaching 9.5 magnitude on 22 May 1960. Its epicenter was near Cañete, Chile. The energy released was approximately twice that of the next most powerful earthquake, the Good Friday earthquake (27 March 1964), which was centered in Prince William Sound, Alaska. The ten largest recorded earthquakes have all been megathrust earthquakes; however, of these ten, only the 2004 Indian Ocean earthquake is simultaneously one of the deadliest earthquakes in history.</p>
+                    <p>Earthquakes that caused the greatest loss of life, while powerful, were deadly because of their proximity to either heavily populated areas or the ocean, where earthquakes often create tsunamis that can devastate communities thousands of kilometers away. Regions most at risk for great loss of life include those where earthquakes are relatively rare but powerful, and poor regions with lax, unenforced, or nonexistent seismic building codes.</p>
+                    <div class="earthquakeimg">
+                        <img src="img/1556.jpg">
+                        <img src="img/shanxi.jpg">
+                    </div>
+                </div>
+                <div class="Tornado">
+                    <br>
+                    <br>
+                    <h2 style="color: black;"><b>4.Tornado</b></h2>
+                    <h4>A tornado is a <span class="highlight">violently rotating column of air</span>that is in contact with both the surface of the Earth and a cumulonimbus cloud or, in rare cases, the base of a cumulus cloud. It is often referred to as a twister, whirlwind or cyclone, although the word cyclone is used in meteorology to name a weather system with a low-pressure area in the center around which, from an observer looking down toward the surface of the Earth, winds blow counterclockwise in the Northern Hemisphere and clockwise in the Southern.</h4>
+                    <h4>Tornadoes come in many shapes and sizes, and they are often (but not always) visible in the form of a condensation funnel originating from the base of a cumulonimbus cloud, with a cloud of rotating debris and dust beneath it. Most tornadoes have wind speeds less than 180 kilometers per hour (110 miles per hour), are about 80 meters (250 feet) across, and travel several kilometers (a few miles) before dissipating. The most extreme tornadoes can attain wind speeds of more than 480 kilometers per hour (300 mph), can be more than 3 kilometers (2 mi) in diameter, and can stay on the ground for more than 100 km (62 mi).</h4>
+                    <h4>Various types of tornadoes include the <span class="highlight">multiple-vortex tornado, landspout, and waterspout</span>. Waterspouts are characterized by a spiraling funnel-shaped wind current, connecting to a large cumulus or cumulonimbus cloud. They are generally classified as non-supercellular tornadoes that develop over bodies of water, but there is disagreement over whether to classify them as true tornadoes. These spiraling columns of air frequently develop in tropical areas close to the equator and are less common at high latitudes. Other tornado-like phenomena that exist in nature include the gustnado, dust devil, fire whirl, and steam devil.</h4>
+                    <div class="tornadoimg">
+                        <img src="img/tornadoabc.png">
+                        <img src="img/tornadosan.jpg">
+                    </div>
+                </div>
+            </div>
+
+            <div id="Causes" class="tabcontent">
+                <div class="introcauses">
+                    <h1><b>THE CAUSES OF NATURAL DISASTERS<b></h1>
+                    <h3>Natural disasters are catastrophic events caused by the forces of nature. They occur as a result of various complex processes happening in the Earth’s environment. Understanding their causes can help us predict, prepare for, and mitigate their impact. Below is an introduction to the primary causes of natural disasters:</h3>
+                </div>
+                <div class="video-container">
+                    <div class="video-box">
+                      <video autoplay muted loop class="myVideo">
+                        <source src="vid/What causes a volcanic eruption_ _ Natural Disasters.mp4" type="video/mp4">
+                      </video>
+                      <div class="content">
+                        <h1>Volcanic Eruption</h1>
+                        <button class="myBtn" onclick="toggleVideo(this)">Pause</button>
+                      </div>
+                    </div>
+                    <h3>Volcanic eruptions are among the most stunning phenomena in the natural world. Volcanoes erupt because of the way heat moves beneath Earth’s surface. Heat is conveyed from the planet’s interior to its surface largely by convection—the transfer of heat by movement of a heated fluid. In this case, the fluid is magma—molten or partially molten rock—which is formed by the partial melting of Earth's mantle and crust. The magma rises, and, in the last step in this heat-releasing process, erupts at the surface through volcanoes.</h3>
+                    <br>
+                    <div class="video-box">
+                      <video autoplay muted loop class="myVideo">
+                        <source src="vid/The causes of flooding.mp4" type="video/mp4">
+                      </video>
+                      <div class="content">
+                        <h1>Flood</h1>
+                        <button class="myBtn" onclick="toggleVideo(this)">Pause</button>
+                      </div>
+                    </div>
+                    <h3>Floods are primarily caused by an accumulation of water in areas where the ground or drainage systems cannot absorb or carry it away effectively. Heavy or prolonged rainfall is the most common trigger, especially when it exceeds the capacity of rivers, streams, or urban drainage systems, leading to overflowing. Other significant causes include storm surges during hurricanes or typhoons, which push seawater onto land, and rapid melting of snow or ice, which increases water flow in rivers. Human activities, such as deforestation, urbanization, and poor water management, exacerbate flood risks by reducing the land's ability to naturally absorb water and by obstructing natural waterways.</h3>
+                    <br>
+                    <div class="video-box">
+                        <video autoplay muted loop class="myVideo">
+                          <source src="vid/What causes an earthquake_ _ Natural Disasters.mp4" type="video/mp4">
+                        </video>
+                        <div class="content">
+                          <h1>Earthquake</h1>
+                          <button class="myBtn" onclick="toggleVideo(this)">Pause</button>
+                        </div>
+                    </div>
+                    <h3>Earthquakes are primarily caused by the movement of tectonic plates, which can either collide, pull apart, or slide past each other, creating stress and causing sudden energy release. Volcanic activity, human activities like mining and fracking, and fault slips also contribute to earthquakes. Additionally, large-scale changes like glacier melting can lead to isostatic rebound, causing small tremors. In rare cases, meteorite impacts can trigger earthquakes. These events all lead to the buildup and release of pressure within the Earth's crust, resulting in seismic activity.</h3>
+                    <br>
+                    <div class="video-box">
+                        <video autoplay muted loop class="myVideo">
+                          <source src="vid/What Causes a Tornado_.mp4" type="video/mp4">
+                        </video>
+                        <div class="content">
+                          <h1>Tornado</h1>
+                          <button class="myBtn" onclick="toggleVideo(this)">Pause</button>
+                        </div>
+                    </div>
+                    <h3>A tornado is a rapidly rotating column of air that extends from a thunderstorm to the ground. It forms when warm, moist air at the surface meets cooler, dry air above, creating instability in the atmosphere. This causes the air to rise, leading to the development of a rotating updraft, known as a mesocyclone. If conditions are right, a funnel cloud forms and touches the ground, creating a tornado. Tornadoes are characterized by strong winds, which can cause significant damage, and can vary in size and intensity. They are most commonly found in areas like "Tornado Alley" in the United States.</h3>
+                    <br>
+                </div>
+            </div>
+
+            <div id="Negativeimpacts" class="tabcontent">
+                <h1>Negative Impacts of Natural Disasters</h1>
+                <h2>1. Social Impacts</h2>
+                <ul>
+                    <li><strong>Loss of Life:</strong> Many people are killed or injured.</li>
+                    <li><strong>Displacement:</strong> Communities lose homes, leading to mass displacement.</li>
+                    <li><strong>Mental Health:</strong> Survivors face trauma and PTSD.</li>
+                    <li><strong>Service Disruption:</strong> Healthcare, education, and utilities are often affected.</li>
+                </ul>
+                <br>
+                <h2>2. Economic Impacts</h2>
+                <ul>
+                    <li><strong>Infrastructure Damage:</strong> Roads, bridges, and buildings require costly repairs.</li>
+                    <li><strong>Job Loss:</strong> Livelihoods, especially in agriculture and small businesses, are destroyed.</li>
+                    <li><strong>Economic Strain:</strong> Recovery expenses hurt local and national economies.</li>
+                </ul>
+                <br>
+                <h2>3. Environmental Impacts</h2>
+                <ul>
+                    <li><strong>Habitat Destruction:</strong> Ecosystems and biodiversity suffer.</li>
+                    <li><strong>Pollution:</strong> Soil, water, and air contamination occurs.</li>
+                    <li><strong>Climate Effects:</strong> Wildfires and storms exacerbate climate change.</li>
+                </ul>
+                <br>
+                <h2>4. Public Health</h2>
+                <ul>
+                    <li><strong>Disease Outbreaks:</strong> Poor sanitation leads to illnesses.</li>
+                    <li><strong>Food and Water Shortages:</strong> Crops fail, and supply chains break.</li>
+                </ul>
+                <div class="before-after">
+                    <img src="img/before.jpg" alt="Before">
+                    <h1>Before</h1>
+                    <br>
+                    <img src="img/after.jpg" alt="After">
+                    <h1>After</h1>
+                </div>
+
+            </div>
+
+            <div id="TheroleofAIinpreparedness" class="tabcontent">
+                <h1>The Role of AI in Preparedness for Disasters</h1>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Area</th>
+                            <th>AI Contribution</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Early Warning Systems</td>
+                            <td>
+                                <ul>
+                                    <li><strong>Predictive Modeling:</strong> AI algorithms analyze historical and real-time data to predict the likelihood and severity of natural disasters such as hurricanes, earthquakes, and floods.</li>
+                                    <li><strong>Alert Mechanisms:</strong> AI-powered tools generate timely alerts to warn populations and authorities, minimizing the impact of disasters.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Risk Assessment</td>
+                            <td>
+                                <ul>
+                                    <li><strong>Hazard Mapping:</strong> Machine learning models process satellite images and environmental data to identify high-risk areas.</li>
+                                    <li><strong>Vulnerability Analysis:</strong> AI evaluates infrastructure, demographics, and geography to determine communities most at risk.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Resource Optimization</td>
+                            <td>
+                                <ul>
+                                    <li><strong>Supply Chain Management:</strong> AI optimizes the distribution of critical resources like food, water, and medical supplies.</li>
+                                    <li><strong>Emergency Services:</strong> Algorithms help allocate first responders and equipment to areas where they are most needed.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Simulation and Training</td>
+                            <td>
+                                <ul>
+                                    <li><strong>Virtual Scenarios:</strong> AI-driven simulations train emergency personnel and decision-makers in disaster response strategies.</li>
+                                    <li><strong>Decision Support:</strong> AI provides actionable insights during drills to improve real-world readiness.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Community Engagement</td>
+                            <td>
+                                <ul>
+                                    <li><strong>Chatbots and Virtual Assistants:</strong> AI-powered systems disseminate information, answer queries, and guide citizens in preparing for emergencies.</li>
+                                    <li><strong>Sentiment Analysis:</strong> AI analyzes social media trends to gauge public sentiment and tailor communication strategies.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Climate and Environmental Monitoring</td>
+                            <td>
+                                <ul>
+                                    <li><strong>Real-Time Analysis:</strong> AI processes weather patterns, seismic activity, and oceanic data to monitor environmental changes.</li>
+                                    <li><strong>Adaptation Strategies:</strong> Insights from AI help policymakers design sustainable solutions to mitigate climate risks.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="feedback">
+                    <h2>Feedback Form</h2>
+                    <form id="feedbackForm">
+                        <label for="name">Your Name:</label>
+                        <input type="text" id="name" name="name" required>
+                        
+                        <label for="feedback">Your Feedback:</label>
+                        <textarea id="feedback" name="feedback" rows="4" required></textarea>
+                        
+                        <button type="submit">Submit Feedback</button>
+                    </form>
+                    
+                    <div id="responseMessage" class="response"></div>
+                </div>
+            
+            </div>
+
+            <script src="./app.js"></script>
